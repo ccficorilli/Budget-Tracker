@@ -1,3 +1,3 @@
-import IncomeEntries from './ExpenseEntries';
+import IncomeEntries from './IncomeEntries';
 
 export default IncomeEntries;
