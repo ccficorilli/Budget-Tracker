@@ -1,6 +1,6 @@
 export function updateExpenseDescription(description) {
   return {
-    type: "UPDATE_EXPENSE_DESCRIPTION",
+    type: 'UPDATE_EXPENSE_DESCRIPTION',
     payload: {
       description
     }
@@ -9,7 +9,7 @@ export function updateExpenseDescription(description) {
 
 export function updateExpenseAmount(amount) {
   return {
-    type: "UPDATE_EXPENSE_AMOUNT",
+    type: 'UPDATE_EXPENSE_AMOUNT',
     payload: {
       amount
     }
@@ -18,7 +18,7 @@ export function updateExpenseAmount(amount) {
 
 export function addExpense(description, amount) {
   return {
-    type: "ADD_EXPENSE",
+    type: 'ADD_EXPENSE',
     payload: {
       description,
       amount: parseFloat(amount)
